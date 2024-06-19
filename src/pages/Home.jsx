@@ -1,6 +1,7 @@
 import { useState } from "react"
-
+import { useNavigate } from "react-router-dom"
 export default function Home() {
+    const navigate = useNavigate()
     const [data, setData] = useState({
         name: "",
         username: "",
@@ -51,6 +52,8 @@ export default function Home() {
                 mobile: "",
                 checkbox: false,
             })
+            navigate("/selection")
+
         }
     }
     return (
