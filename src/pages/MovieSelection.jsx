@@ -31,7 +31,7 @@ const MOVIES = [
         movie: "Fiction"
     }, {
         id: 8,
-        movie: "Musical"
+        movie: "Music"
     }
 ]
 
